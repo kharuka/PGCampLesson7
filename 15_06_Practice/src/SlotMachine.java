@@ -25,7 +25,7 @@ public class SlotMachine extends Application {
     @Override
     public void start(Stage stage) {
         stage.setTitle("Slot Machine");
-        Border border =new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID,CornerRadii.EMPTY,BorderWidths.DEFAULT));
+        Border border =new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID,new CornerRadii(5),BorderWidths.DEFAULT));
 
         // slot label を作成
         ArrayList<MyLabel> label_array = new ArrayList<>();
@@ -35,6 +35,7 @@ public class SlotMachine extends Application {
 
         for (MyLabel la:label_array){
             la.setBorder(border);
+            la.setAlignment(Pos.CENTER);
         }
 
         try {
@@ -100,7 +101,6 @@ public class SlotMachine extends Application {
 
             BorderPane borderPane = new BorderPane();
             borderPane.setPadding(new Insets(10, 10, 10, 10));
-            BorderPane.setAlignment(borderPane,Pos.CENTER);
             borderPane.setTop(numberBox);
             borderPane.setBottom(setBox);
 
