@@ -15,4 +15,5 @@ public class MyLabel extends Label {
     public void setNumber(String number) {
         this.number = number;
     }
+
 }
