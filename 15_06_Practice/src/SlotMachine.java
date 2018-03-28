@@ -93,9 +93,8 @@ public class SlotMachine extends Application {
                 SLOT_STOP_FLAG[0] = 0;
                 label_array.get(0).setNumber(label_array.get(0).toString());
 
-//                for (int i = 0; i < label_array.size(); i++) {
-//                    label_array.get(i).setNumber("7");
-//                }
+//                label_array.get(0).setNumber("7");
+//                label_array.get(0).setText("7");
 
                 String[] la = new String[5];
                 for (int i = 0; i < label_array.size(); i++) {
@@ -120,9 +119,8 @@ public class SlotMachine extends Application {
                 SLOT_STOP_FLAG[1] = 0;
                 label_array.get(1).setNumber(label_array.get(1).toString());
 
-//                for (int i = 0; i < label_array.size(); i++) {
-//                    label_array.get(i).setNumber("7");
-//                }
+//                label_array.get(1).setNumber("7");
+//                label_array.get(1).setText("7");
 
                 String[] la = new String[5];
                 for (int i = 0; i < label_array.size(); i++) {
@@ -147,9 +145,8 @@ public class SlotMachine extends Application {
                 SLOT_STOP_FLAG[2] = 0;
                 label_array.get(2).setNumber(label_array.get(2).toString());
 
-//                for (int i = 0; i < label_array.size(); i++) {
-//                    label_array.get(i).setNumber("7");
-//                }
+//                label_array.get(2).setNumber("7");
+//                label_array.get(2).setText("7");
 
                 String[] la = new String[5];
                 for (int i = 0; i < label_array.size(); i++) {
@@ -174,9 +171,8 @@ public class SlotMachine extends Application {
                 SLOT_STOP_FLAG[3] = 0;
                 label_array.get(3).setNumber(label_array.get(3).toString());
 
-//                for (int i = 0; i < label_array.size(); i++) {
-//                    label_array.get(i).setNumber("7");
-//                }
+//                label_array.get(3).setNumber("7");
+//                label_array.get(3).setText("7");
 
                 String[] la = new String[5];
                 for (int i = 0; i < label_array.size(); i++) {
@@ -201,9 +197,8 @@ public class SlotMachine extends Application {
                 SLOT_STOP_FLAG[4] = 0;
                 label_array.get(4).setNumber(label_array.get(4).toString());
 
-//                for (int i = 0; i < label_array.size(); i++) {
-//                    label_array.get(i).setNumber("7");
-//                }
+//                label_array.get(4).setNumber("7");
+//                label_array.get(4).setText("7");
 
                 String[] la = new String[5];
                 for (int i = 0; i < label_array.size(); i++) {
